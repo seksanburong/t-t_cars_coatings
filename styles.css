@@ -1,0 +1,155 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0;
+  }
+  * {
+    box-sizing: border-box;
+  }
+
+  .navbar {
+    /* background-color: #333; */
+    background-color: black;
+    padding: 10px 20px 10px;
+    display: flex;
+    position:fixed;
+    z-index: 10;
+    width: 100%;
+    /* justify-content: center; */
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    justify-content: center;
+    font-size: medium;
+    font-size: larger;
+  }
+
+  .navbar a:hover{
+    background-color: #48D1CC;
+    border-radius: 10%;
+    
+  }
+
+
+
+  .navbar img{
+    padding: 10px;
+    border-radius: 20px;
+    width: 150px;
+    height: 100px;
+
+  }
+
+  .footer{
+    background-color: #48D1CC;
+    padding-top: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero {
+    background-image: url('path/to/your/image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+
+
+  img {
+    vertical-align: middle;
+    font-size: 70%;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  
+  /* Add additional styles for services, contact form, footer, etc. */
+  
